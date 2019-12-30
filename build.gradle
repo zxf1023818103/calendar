@@ -36,6 +36,7 @@ dependencies {
     implementation('com.microsoft.ews-java-api:ews-java-api:2.0')
     runtimeOnly('com.h2database:h2:1.4.200')
     compileOnly('org.springframework.boot:spring-boot-configuration-processor')
-    compileOnly('org.projectlombok:lombok')
+    compileOnly('org.projectlombok:lombok:1.18.10')
+    annotationProcessor ('org.projectlombok:lombok:1.18.10')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
